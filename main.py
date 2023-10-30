@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(r"C:\users\mohammad\appdata\local\programs\python\python311\lib\site-packages")
+sys.path.append(r"C:\users\USER\appdata\local\programs\python\python311\lib\site-packages")
 
 import time
 import watchdog.events as events
@@ -38,7 +38,7 @@ class FolderMonitor(object):
 
 
 if __name__ == "__main__":
-    folder_path = (r'C:\Users\Mohammad\Desktop\TestHash')
+    folder_path = (r'C:\Users\USER\Desktop\FOLDER')
     monitor = FolderMonitor(folder_path)
     monitor.start()
 
